@@ -1,0 +1,95 @@
+/* -------------------------------
+	Reset style HTML 5
+------------------------------- */
+
+body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,blockquote,table,th,td {margin:0; padding:0;} 
+	
+img {border:0;}
+
+ul,ol {list-style:none;}
+ 
+table {border:0px; border-collapse:collapse;}
+
+/* -------------------------------
+	Base font 
+------------------------------- */
+body {font: normal 12px/15px Arial, Helvetica, sans-serif; color:#000; } 
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+a {}
+a:visited {}
+a:hover {}
+a:active {}
+
+/* -------------------------------
+	Menu 
+------------------------------- */
+
+/* -------------------------------
+	Form 
+------------------------------- */
+
+/* -------------------------------
+	Base style 
+------------------------------- */
+
+html, body{ width:100%; height:100%; text-align:center; background:#f3f6fa; }
+
+#main{ width:1000px; min-height:100%; height:auto !important; height:100%; margin:0 auto -50px;   text-align:left;}
+					
+.footer_push {width:1000px; height:50px;  margin:0 auto; clear:both; }
+
+#footer {width:1000px; height:50px;  margin:0 auto;  clear:both; }
+
+
+/* -------------------------------
+	Template style
+------------------------------- */
+.enterFormBox { width:500px; margin:10% auto 0; }
+.enterForm { width:500px;  padding:0 0 40px 0;  border:1px solid #bcc6d8; 
+  -moz-border-radius: 4px; /* Firefox */
+  -webkit-border-radius: 4px; /* Safari, Chrome */
+  -khtml-border-radius: 4px; /* KHTML */
+  border-radius: 4px; /* CSS3 */
+}
+.enterForm header { font:24px/27px Arial; color:#8894a6; border-bottom:1px solid #bcc6d8; text-align:center; padding:20px 0 20px 0;
+	-moz-border-radius: 4px 4px 0 0; /* Firefox */
+	-webkit-border-radius: 4px 4px 0 0; /* Safari, Chrome */
+	-khtml-border-radius: 4px 4px 0 0; /* KHTML */
+	border-radius: 4px 4px 0 0; /* CSS3 */
+	text-shadow: 1px 1px 1px #fff;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f3f6fa 1%, #f2f5fa 3%, #e9edf2 31%, #d6dce5 70%, #ccd3dd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(1%,#f3f6fa), color-stop(3%,#f2f5fa), color-stop(31%,#e9edf2), color-stop(70%,#d6dce5), color-stop(100%,#ccd3dd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f3f6fa 1%,#f2f5fa 3%,#e9edf2 31%,#d6dce5 70%,#ccd3dd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#f3f6fa 1%,#f2f5fa 3%,#e9edf2 31%,#d6dce5 70%,#ccd3dd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#f3f6fa 1%,#f2f5fa 3%,#e9edf2 31%,#d6dce5 70%,#ccd3dd 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#f3f6fa 1%,#f2f5fa 3%,#e9edf2 31%,#d6dce5 70%,#ccd3dd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ccd3dd',GradientType=0 ); /* IE6-9 */
+}
+.enterForm section { width:500px; padding:20px 0 0 0;  }
+.enterForm div { width:420px; height:50px; margin:30px auto 0; }
+.enterText { width:399px; height:50px;  background:url('../images/form-text.png') 0 0 no-repeat; border:none; font:18px/21px Arial; color:#8894a6; padding: 0 0 0 21px; }
+.enterText span { width:20px; height:20px; float:right; }
+.enterSub { width:420px; height:50px; border:1px solid #1057c1; font:18px/21px Arial; color:#fff; text-shadow: 1px 1px 1px #1040b4;
+	-moz-border-radius: 4px; /* Firefox */
+	-webkit-border-radius: 4px; /* Safari, Chrome */
+	-khtml-border-radius: 4px; /* KHTML */
+	border-radius: 4px; /* CSS3 */
+	background: #57b5fd; /* Old browsers */
+	background: -moz-linear-gradient(top, #57b5fd 0%, #459bfc 2%, #2d80e1 49%, #256cd9 51%, #1254bc 89%, #0f50b6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#57b5fd), color-stop(2%,#459bfc), color-stop(49%,#2d80e1), color-stop(51%,#256cd9), color-stop(89%,#1254bc), color-stop(100%,#0f50b6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #57b5fd 0%,#459bfc 2%,#2d80e1 49%,#256cd9 51%,#1254bc 89%,#0f50b6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #57b5fd 0%,#459bfc 2%,#2d80e1 49%,#256cd9 51%,#1254bc 89%,#0f50b6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #57b5fd 0%,#459bfc 2%,#2d80e1 49%,#256cd9 51%,#1254bc 89%,#0f50b6 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #57b5fd 0%,#459bfc 2%,#2d80e1 49%,#256cd9 51%,#1254bc 89%,#0f50b6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57b5fd', endColorstr='#0f50b6',GradientType=0 ); /* IE6-9 */
+	cursor:pointer;
+ }
+.errorBox {
+	text-align:center; width:500px; font:18px/21px Arial; color:red; padding:0 0 10px 0;
+}

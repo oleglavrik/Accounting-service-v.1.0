@@ -1,0 +1,5 @@
+<?php 
+	# Ï³äêëþ÷àºìî òà ³í³ö³àë³çóºìî SMARTY
+	require_once('libs/Smarty.class.php');
+	$smarty = new Smarty();
+?>
